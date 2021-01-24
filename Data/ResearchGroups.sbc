@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ResearchGroups>
+		<ResearchGroup xsi:type="ResearchGroup">
+			<Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="9" />
+			<Members>
+				<BlockId Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
+			</Members>
+		</ResearchGroup>
+		<ResearchGroup xsi:type="ResearchGroup">
+			<Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="MediumOreDetect" />
+			<Members>
+				<BlockId Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector" />
+				<BlockId Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector" />
+			</Members>
+		</ResearchGroup>
+		<ResearchGroup xsi:type="ResearchGroup">
+			<Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="LargeOreDetect" />
+			<Members>
+				<BlockId Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockMediumOreDetector" />
+				<BlockId Type="MyObjectBuilder_OreDetector" Subtype="LargeBlockMediumOreDetector" />
+			</Members>
+		</ResearchGroup>
+		<ResearchGroup xsi:type="ResearchGroup">
+			<Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="MassiveOreDetect" />
+			<Members>
+				<BlockId Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockLargeOreDetector" />
+				<BlockId Type="MyObjectBuilder_OreDetector" Subtype="LargeBlockLargeOreDetector" />
+			</Members>
+		</ResearchGroup>
+	</ResearchGroups>
+</Definitions>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClassEntries>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="OreDetector/LargeOreDetector" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="OreDetector/LargeBlockMediumOreDetector" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="OreDetector/LargeBlockLargeOreDetector" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="OreDetector/LargeBlockMassiveOreDetector" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="OreDetector/SmallBlockOreDetector" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="OreDetector/SmallBlockMediumOreDetector" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="OreDetector/SmallBlockLargeOreDetector" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="OreDetector/SmallBlockMassiveOreDetector" />
+	</BlueprintClassEntries>
+</Definitions>

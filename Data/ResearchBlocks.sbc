@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ResearchBlocks>
+		<!--
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector" />
+			<UnlockedByGroups>
+				<GroupSubtype>9</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector" />
+			<UnlockedByGroups>
+				<GroupSubtype>9</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		-->
+	
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockMediumOreDetector" />
+			<UnlockedByGroups>
+				<GroupSubtype>MediumOreDetect</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="MyObjectBuilder_OreDetector" Subtype="LargeBlockMediumOreDetector" />
+			<UnlockedByGroups>
+				<GroupSubtype>MediumOreDetect</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+	
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockLargeOreDetector" />
+			<UnlockedByGroups>
+				<GroupSubtype>LargeOreDetect</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="MyObjectBuilder_OreDetector" Subtype="LargeBlockLargeOreDetector" />
+			<UnlockedByGroups>
+				<GroupSubtype>LargeOreDetect</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+	
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockMassiveOreDetector" />
+			<UnlockedByGroups>
+				<GroupSubtype>MassiveOreDetect</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="MyObjectBuilder_OreDetector" Subtype="LargeBlockMassiveOreDetector" />
+			<UnlockedByGroups>
+				<GroupSubtype>MassiveOreDetect</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+	</ResearchBlocks>
+</Definitions>
