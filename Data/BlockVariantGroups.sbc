@@ -8,14 +8,14 @@
 			<DisplayName>DisplayName_Block_OreDetector</DisplayName>
 			<Description>Description_OreDetector</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector" />
-				<Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockMediumOreDetector" />
-				<Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockLargeOreDetector" />
-				<Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockMassiveOreDetector" />
 				<Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector" />
 				<Block Type="MyObjectBuilder_OreDetector" Subtype="LargeBlockMediumOreDetector" />
 				<Block Type="MyObjectBuilder_OreDetector" Subtype="LargeBlockLargeOreDetector" />
 				<Block Type="MyObjectBuilder_OreDetector" Subtype="LargeBlockMassiveOreDetector" />
+				<Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector" />
+				<Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockMediumOreDetector" />
+				<Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockLargeOreDetector" />
+				<Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockMassiveOreDetector" />
 			</Blocks>
 		</BlockVariantGroup>
 		
