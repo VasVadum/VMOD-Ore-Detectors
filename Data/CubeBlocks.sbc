@@ -417,10 +417,10 @@ This one has double the range of the previous, taking an extreme amount of CPU.<
 	
 	<BlockPositions>
 		<BlockPosition>
-			<Name>LargeOreDetector</Name>
+			<Name>SmallOreDetector</Name>
 			<Position>
-				<X>3</X>
-				<Y>5</Y>
+				<X>0</X>
+				<Y>7</Y>
 			</Position>
 		</BlockPosition>
 	</BlockPositions>
